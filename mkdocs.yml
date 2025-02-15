@@ -1,0 +1,49 @@
+site_name: 'Імпульсний перетворювач катодного захисту ІПКЗ'
+site_url: https://data.texnotek.com
+site_author: 'Остапчук Віктор'
+dev_addr: '127.0.0.1:8000'
+theme:
+  name: material
+  language: uk
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+plugins:
+#  - search
+  - glightbox:
+    touchNavigation: true
+    loop: false
+    effect: zoom
+    slide_effect: slide
+    width: 100%
+    height: auto
+    zoomable: true
+    draggable: true
+    skip_classes:
+      - custom-skip-class-name
+    auto_caption: false
+    caption_position: bottom
+    background: white
+    shadow: true
+    manual: false
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+nav:
+  - Загальні дані: index.md
+  - Керування: tags.md
+  - Blog:
