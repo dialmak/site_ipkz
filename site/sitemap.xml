@@ -9,23 +9,23 @@
          <lastmod>2025-02-16</lastmod>
     </url>
     <url>
-         <loc>https://dialmak.github.io/site_ipkz/manual-interface/</loc>
-         <lastmod>2025-02-16</lastmod>
-    </url>
-    <url>
-         <loc>https://dialmak.github.io/site_ipkz/modbus-registers/</loc>
-         <lastmod>2025-02-16</lastmod>
-    </url>
-    <url>
-         <loc>https://dialmak.github.io/site_ipkz/modbus/</loc>
-         <lastmod>2025-02-16</lastmod>
-    </url>
-    <url>
          <loc>https://dialmak.github.io/site_ipkz/passport/</loc>
          <lastmod>2025-02-16</lastmod>
     </url>
     <url>
-         <loc>https://dialmak.github.io/site_ipkz/web-interface/</loc>
+         <loc>https://dialmak.github.io/site_ipkz/interface/manual-interface/</loc>
+         <lastmod>2025-02-16</lastmod>
+    </url>
+    <url>
+         <loc>https://dialmak.github.io/site_ipkz/interface/web-interface/</loc>
+         <lastmod>2025-02-16</lastmod>
+    </url>
+    <url>
+         <loc>https://dialmak.github.io/site_ipkz/modbus/modbus-registers/</loc>
+         <lastmod>2025-02-16</lastmod>
+    </url>
+    <url>
+         <loc>https://dialmak.github.io/site_ipkz/modbus/modbus/</loc>
          <lastmod>2025-02-16</lastmod>
     </url>
 </urlset>

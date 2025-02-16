@@ -1,0 +1,11 @@
+title: ІПКЗ
+nav:
+    - index.md
+    - Паспорт: passport.md
+    - Технічний опис та керівництво з експлуатації : datasheet.md
+    - interface
+    - modbus
+    - contacts.md
+
+
+    

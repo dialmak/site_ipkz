@@ -1,5 +1,6 @@
 ---
-title: Опис регістрів ModBus
+title: Регістри ModBus
+subtitle: Детальний опис регістрів ModBus RTU/TCP
 icon: material/list-box
 ---
 

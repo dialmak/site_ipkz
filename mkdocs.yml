@@ -1,6 +1,6 @@
 site_name: 'Імпульсний перетворювач катодного захисту ІПКЗ'
-#site_url: https://data.texnotek.com
-site_url: https://dialmak.github.io/site_ipkz
+site_url: https://data.texnotek.com
+#site_url: https://dialmak.github.io/site_ipkz
 site_author: 'Остапчук Віктор'
 copyright: Ostapchuk Viktor &copy; 2025 
 dev_addr: '127.0.0.1:8000'
@@ -12,6 +12,7 @@ theme:
 #    favicon: material/home-lightning-bolt
   features:
 #     - navigation.footer
+     - navigation.tracking
      - navigation.sections
 #     - navigation.indexes
      - toc.integrate
@@ -32,9 +33,19 @@ theme:
         icon: material/lightbulb-outline
         name: Перемкнути на світлу тему
 
+extra_css:
+  - css/extra.css
+
 plugins:
-  - search
-  - table-reader
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - en
+        - uk
+  - awesome-pages:
+      collapse_single_pages: false
+  - minify:
+      minify_html: true
   - glightbox:
        touchNavigation: true
        loop: false
@@ -56,6 +67,10 @@ watch:
   - includes
 
 markdown_extensions:
+  - markdown.extensions.toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify_cased
+      toc_depth: 2
   - abbr
   - attr_list
   - pymdownx.emoji:
@@ -78,6 +93,3 @@ markdown_extensions:
 extra:
   generator: false
 
-
-#nav:
-#  - Загальні дані: index.md
