@@ -6,7 +6,7 @@ copyright: Ostapchuk Viktor &copy; 2025
 dev_addr: '127.0.0.1:8000'
 theme:
   font:
-    text: Barlow Condensed
+    text: OpenSans Condensed
   icon:
     logo: material/home-lightning-bolt
 #    favicon: material/home-lightning-bolt
