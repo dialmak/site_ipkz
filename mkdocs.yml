@@ -5,8 +5,8 @@ site_author: 'Остапчук Віктор'
 copyright: Ostapchuk Viktor &copy; 2025 
 dev_addr: '127.0.0.1:8000'
 theme:
-  font:
-    text: Cabin Condensed
+#  font:
+#    text: Cabin Condensed
   icon:
     logo: material/home-lightning-bolt
 #    favicon: material/home-lightning-bolt
