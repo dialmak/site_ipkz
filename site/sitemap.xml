@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://data.texnotek.com/</loc>
-         <lastmod>2025-02-15</lastmod>
+         <loc>https://dialmak.github.io/site_ipkz/</loc>
+         <lastmod>2025-02-16</lastmod>
+    </url>
+    <url>
+         <loc>https://dialmak.github.io/site_ipkz/datasheet/</loc>
+         <lastmod>2025-02-16</lastmod>
+    </url>
+    <url>
+         <loc>https://dialmak.github.io/site_ipkz/manual-interface/</loc>
+         <lastmod>2025-02-16</lastmod>
+    </url>
+    <url>
+         <loc>https://dialmak.github.io/site_ipkz/modbus-registers/</loc>
+         <lastmod>2025-02-16</lastmod>
+    </url>
+    <url>
+         <loc>https://dialmak.github.io/site_ipkz/modbus/</loc>
+         <lastmod>2025-02-16</lastmod>
+    </url>
+    <url>
+         <loc>https://dialmak.github.io/site_ipkz/passport/</loc>
+         <lastmod>2025-02-16</lastmod>
+    </url>
+    <url>
+         <loc>https://dialmak.github.io/site_ipkz/web-interface/</loc>
+         <lastmod>2025-02-16</lastmod>
     </url>
 </urlset>

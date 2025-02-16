@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+---
+title: Імпульсний перетворювач катодного захисту
+icon: material/home-lightning-bolt
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Імпульсний перетворювач катодного захисту ІПКЗ
 
-## Commands
+Повна документація доступна на веб-сайті [data.texnotek.com](https://data.texnotek.com).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## [Паспорт.](./passport.md)
+## [Технічний опис та керівництво з експлуатації.](./datasheet.md)
+## [Ручне керування.](./manual-interface.md)
+## [WEB інтерфейс.](./web-interface.md)
+## [Протокол ModBus.](./modbus.md)
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

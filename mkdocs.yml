@@ -2,8 +2,17 @@ site_name: 'Імпульсний перетворювач катодного з�
 #site_url: https://data.texnotek.com
 site_url: https://dialmak.github.io/site_ipkz
 site_author: 'Остапчук Віктор'
+copyright: Ostapchuk Viktor &copy; 2025 
 dev_addr: '127.0.0.1:8000'
 theme:
+  font:
+    text: Barlow Condensed
+  icon:
+    logo: material/home-lightning-bolt
+#    favicon: material/home-lightning-bolt
+  features:
+    - navigation.footer
+    - toc.integrate
   name: material
   language: uk
   palette: 
@@ -12,16 +21,18 @@ theme:
     - scheme: default
       toggle:
         icon: material/lightbulb
-        name: Switch to dark mode
+        name: Перемкнути на темну тему
 
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/lightbulb-outline
-        name: Switch to light mode
+        name: Перемкнути на світлу тему
 
 plugins:
-   - glightbox:
+  - search
+  - table-reader
+  - glightbox:
        touchNavigation: true
        loop: false
        effect: zoom
@@ -38,10 +49,32 @@ plugins:
        shadow: true
        manual: false
 
+watch:
+  - includes
+
 markdown_extensions:
+  - abbr
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
   - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
 
-nav:
-  - Загальні дані: index.md
+extra:
+  generator: false
+
+
+#nav:
+#  - Загальні дані: index.md

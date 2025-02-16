@@ -2,3 +2,6 @@ mkdocs-material
 mkdocs-glightbox
 pymdown-extensions
 Pygments
+mkdocs-table-reader-plugin
+openpyxl
+xlrd
