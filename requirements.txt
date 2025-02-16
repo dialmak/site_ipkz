@@ -6,3 +6,4 @@ mkdocs-table-reader-plugin
 openpyxl
 xlrd
 mkdocs-awesome-pages-plugin
+mkdocs-minify-plugin
