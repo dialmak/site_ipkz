@@ -11,8 +11,11 @@ theme:
     logo: material/home-lightning-bolt
 #    favicon: material/home-lightning-bolt
   features:
-    - navigation.footer
-    - toc.integrate
+#     - navigation.footer
+     - navigation.sections
+#     - navigation.indexes
+     - toc.integrate
+     - navigation.top
   name: material
   language: uk
   palette: 
