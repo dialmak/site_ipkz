@@ -1,4 +1,3 @@
-title: ІПКЗ
 nav:
     - index.md
     - Паспорт: passport.md
@@ -6,7 +5,7 @@ nav:
     - interface
     - modbus
     - contacts.md
-    
+
 
 
     

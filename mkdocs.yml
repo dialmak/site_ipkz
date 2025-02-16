@@ -9,7 +9,7 @@ theme:
 #    text: Cabin Condensed
   icon:
     logo: material/home-lightning-bolt
-#    favicon: material/home-lightning-bolt
+#    favicon: img/favicon.png
   features:
 #     - navigation.footer
      - navigation.tracking
@@ -38,40 +38,36 @@ extra_css:
   - css/extra.css
 
 plugins:
-  - search:
-      separator: '[\s\-\.]+'
-      lang:
-        - en
-        - uk
-  - awesome-pages:
-      collapse_single_pages: false
-  - minify:
-      minify_html: true
-  - glightbox:
-       touchNavigation: true
-       loop: false
-       effect: zoom
-       slide_effect: slide
-       width: 100%
-       height: auto
-       zoomable: true
-       draggable: true
-       skip_classes:
-         - custom-skip-class-name
-       auto_caption: false
-       caption_position: bottom
-       background: white
-       shadow: true
-       manual: false
+    - awesome-pages:
+        collapse_single_pages: false
+    - search:
+        separator: '[\s\-\.]+'
+        lang:
+          - en
+          - uk
+    - minify:
+        minify_html: true
+    - glightbox:
+        touchNavigation: true
+        loop: false
+        effect: zoom
+        slide_effect: slide
+        width: 100%
+        height: auto
+        zoomable: true
+        draggable: true
+        skip_classes:
+          - custom-skip-class-name
+        auto_caption: false
+        caption_position: bottom
+        background: white
+        shadow: true
+        manual: false
 
 watch:
   - includes
 
 markdown_extensions:
-  - markdown.extensions.toc:
-      permalink: true
-      slugify: !!python/name:pymdownx.slugs.uslugify_cased
-      toc_depth: 2
   - abbr
   - attr_list
   - pymdownx.emoji:

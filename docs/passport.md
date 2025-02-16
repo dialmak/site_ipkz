@@ -1,6 +1,6 @@
 ---
 title: Паспорт
-icon: material/book-open
+icon: material/note-text
 ---
 
 # Паспорт перетворювача.
