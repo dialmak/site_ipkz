@@ -9,7 +9,7 @@ theme:
 #    text: Cabin Condensed
   icon:
     logo: material/home-lightning-bolt
-#    favicon: img/favicon.png
+    favicon: img/favicon.png
   features:
 #     - navigation.footer
      - navigation.tracking
@@ -46,7 +46,7 @@ plugins:
           - en
           - uk
     - minify:
-        minify_html: true
+        minify_html: false 
     - glightbox:
         touchNavigation: true
         loop: false
@@ -62,7 +62,7 @@ plugins:
         caption_position: bottom
         background: white
         shadow: true
-        manual: false
+        manual: false     
 
 watch:
   - includes

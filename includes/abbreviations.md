@@ -18,3 +18,4 @@
 *[Modbus]: Комунікаційний протокол, розроблений компанією Modicon по технології ведучий-ведений
 *[ID]: Ідентифікатор
 *[PDF]: Portable Document Format
+*[Wi-Fi]: Wireless Fidelity
