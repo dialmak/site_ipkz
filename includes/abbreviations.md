@@ -19,3 +19,4 @@
 *[ID]: Ідентифікатор
 *[PDF]: Portable Document Format
 *[Wi-Fi]: Wireless Fidelity
+*[Скріншот]: Знімок екрану
