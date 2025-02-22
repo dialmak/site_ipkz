@@ -1,7 +1,6 @@
 site_name: 'Імпульсний перетворювач катодного захисту ІПКЗ'
-site_url: https://data.texnotek.com
-#site_url: https://dialmak.github.io/site_ipkz
-site_author: 'Остапчук Віктор'
+site_url: https://p.texnotek.com
+site_author: 'Ostapchuk Viktor'
 copyright: Ostapchuk Viktor &copy; 2025 
 dev_addr: '127.0.0.1:8000'
 theme:
@@ -24,8 +23,7 @@ theme:
   name: material
   language: uk
   palette: 
-
-
+  
     # Palette toggle for light mode
     - scheme: default
       toggle:
