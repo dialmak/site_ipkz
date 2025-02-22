@@ -9,4 +9,4 @@ title: Відео зміни режиму роботи
   <source src="../../assets/video/mode.mp4" type="video/mp4" />Тег video не підтримується вашим браузером.<a href="../../assets/video/mode.mp4">Скачати відео.</a>
 </video>
 
-[Повернутися](../web-interface/#select-mode)
+[:material-arrow-left-top: Повернутися](../web-interface/#select-mode)

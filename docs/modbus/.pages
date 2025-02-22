@@ -1,4 +1,3 @@
 title: Віддалене керування
 nav:
    - modbus.md
-   - modbus-registers.md

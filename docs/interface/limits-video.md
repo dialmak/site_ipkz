@@ -9,4 +9,4 @@ title: Відео налаштування обмеженнь вихідного
   <source src="../../assets/video/limits.mp4" type="video/mp4" />Тег video не підтримується вашим браузером.<a href="../../assets/video/limits.mp4">Скачати відео.</a>
 </video>
 
-[Повернутися](../web-interface/#limits)
+[:material-arrow-left-top: Повернутися](../web-interface/#settings-limits)
