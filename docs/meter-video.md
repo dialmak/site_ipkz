@@ -7,7 +7,7 @@ title: Відео налаштування електролічильника
 
 
 <video controls disablepictureinpicture muted>
-  <source src="../../assets/video/meter.mp4" type="video/mp4" />Тег video не підтримується вашим браузером.<a href="../../assets/meter/modbus.mp4">Скачати відео.</a>
+  <source src="../assets/video/meter.mp4" type="video/mp4" />Тег video не підтримується вашим браузером.<a href="../assets/meter/modbus.mp4">Скачати відео.</a>
 </video>
 
 [:material-arrow-left-top: Повернутися](../web-interface/#settings-meter)
