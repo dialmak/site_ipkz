@@ -7,3 +7,4 @@ openpyxl
 xlrd
 mkdocs-awesome-pages-plugin
 mkdocs-minify-plugin
+neoteroi-mkdocs

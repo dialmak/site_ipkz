@@ -7,10 +7,10 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <meta name="author" content="Остапчук Віктор">
+        <meta name="author" content="Ostapchuk Viktor">
       
       
-        <link rel="canonical" href="https://data.texnotek.com/modbus/modbus/">
+        <link rel="canonical" href="https://p.texnotek.com/modbus/modbus/">
       
       
         <link rel="prev" href="../../interface/manual-interface/">
@@ -57,6 +57,8 @@
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/neoteroi-mkdocs.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -256,7 +258,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 2 12h3v8h14v-8h3zm-.5 15v-4H9l3.5-7v4H15z"/></svg>
   
   <span class="md-ellipsis">
-    Призначення
+    ІПКЗ
     
   </span>
   
@@ -510,59 +512,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#мережа-rs-485-та-modbus-rtu-протокол" class="md-nav__link">
+  <a href="#rs485--modbus" class="md-nav__link">
     <span class="md-ellipsis">
-      Мережа RS-485 та Modbus RTU протокол
+      Modbus RTU протокол
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Мережа RS-485 та Modbus RTU протокол">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#мережа-gsm-та-modbus-tcpip-протокол" class="md-nav__link">
-    <span class="md-ellipsis">
-      Мережа GSM та Modbus TCP/IP протокол
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#загальний-опис-регістрів-та-даних-modbus-rtutcp" class="md-nav__link">
-    <span class="md-ellipsis">
-      Загальний опис регістрів та даних ModBus RTU/TCP
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#детальний-опис-регістрів-modbus-rtutcp" class="md-nav__link">
+  <a href="#gsm-modbus" class="md-nav__link">
     <span class="md-ellipsis">
-      Детальний опис регістрів ModBus RTU/TCP
+      Modbus TCP/IP протокол
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Детальний опис регістрів ModBus RTU/TCP">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#registers-modbus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Опис регістрів ModBus RTU/TCP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Опис регістрів ModBus RTU/TCP">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#читання-основних-параметрів-перетворювача" class="md-nav__link">
+  <a href="#registers-read-ipkz" class="md-nav__link">
     <span class="md-ellipsis">
-      Читання основних параметрів перетворювача
+      Читання параметрів перетворювача
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#управління-параметрами-перетворювача" class="md-nav__link">
+  <a href="#registers-control-ipkz" class="md-nav__link">
     <span class="md-ellipsis">
       Управління параметрами перетворювача
     </span>
@@ -571,16 +558,16 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#дані-про-перетворювач" class="md-nav__link">
+  <a href="#registers-about" class="md-nav__link">
     <span class="md-ellipsis">
-      Дані про перетворювач
+      Інформація про перетворювач
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#управління-параметрами-modbus" class="md-nav__link">
+  <a href="#registers-control-modbus" class="md-nav__link">
     <span class="md-ellipsis">
       Управління параметрами ModBus
     </span>
@@ -654,7 +641,7 @@
 В мережі повинен бути тільки один ведучий і може бути до 247 ведених. Як ведучий використовується ПК або ПЛК, а як ведені – перетворювачі ІПКЗ. 
 Ініціатором циклів обміну повинен виступати тільки ведучий. Запити ведучого індивідуальні, які адресуються конкретному перетворювачу. Ведені здійснюють передачу даних, відповідаючи на індивідуальні запити ведучого. 
 При виявленні помилок при отриманні запитів або неможливості виконання отриманої команди, ведений генерує повідомлення про помилку або не відповідає.</p>
-<h2 id="мережа-rs-485-та-modbus-rtu-протокол">Мережа <abbr title="Recommended Standard - 485">RS-485</abbr> та <abbr title="Комунікаційний протокол, розроблений компанією Modicon по технології ведучий-ведений">Modbus</abbr> <abbr title="Remote Terminal Unit">RTU</abbr> протокол</h2>
+<h2 id="rs485--modbus">Мережа <abbr title="Recommended Standard - 485">RS-485</abbr> та <abbr title="Комунікаційний протокол, розроблений компанією Modicon по технології ведучий-ведений">Modbus</abbr> <abbr title="Remote Terminal Unit">RTU</abbr> протокол</h2>
 <p>Для з’єднання на фізичному рівні використовуються мережа <abbr title="Recommended Standard - 485">RS-485</abbr>.</p>
 <ul>
 <li>Для стабільності і безпеки зв'язку використовується ізольований прийомопередавач сигналів з ізольованим джерелом живлення.</li>
@@ -674,7 +661,7 @@
 <li>Записом в відповідні регістри <abbr title="Комунікаційний протокол, розроблений компанією Modicon по технології ведучий-ведений">Modbus</abbr> через мережу <abbr title="Global System for Mobile Communications">GSM</abbr>.</li>
 </ul>
 </div>
-<h3 id="мережа-gsm-та-modbus-tcpip-протокол">Мережа <abbr title="Global System for Mobile Communications">GSM</abbr> та <abbr title="Комунікаційний протокол, розроблений компанією Modicon по технології ведучий-ведений">Modbus</abbr> <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr> протокол</h3>
+<h2 id="gsm-modbus">Мережа <abbr title="Global System for Mobile Communications">GSM</abbr> та <abbr title="Комунікаційний протокол, розроблений компанією Modicon по технології ведучий-ведений">Modbus</abbr> <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr> протокол</h2>
 <p>Для з’єднання на фізичному рівні використовуються мережа <abbr title="Global System for Mobile Communications">GSM</abbr>.</p>
 <ul>
 <li>Налаштування <abbr title="Global System for Mobile Communications">GSM</abbr> модему та <abbr title="Комунікаційний протокол, розроблений компанією Modicon по технології ведучий-ведений">Modbus</abbr> <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr> сервера проводиться відповідно до Додатка 2.</li>
@@ -689,7 +676,8 @@
 <li>Записом в відповідні регістри <abbr title="Комунікаційний протокол, розроблений компанією Modicon по технології ведучий-ведений">Modbus</abbr> через мережу <abbr title="Recommended Standard - 485">RS-485</abbr>.</li>
 </ul>
 </div>
-<h3 id="загальний-опис-регістрів-та-даних-modbus-rtutcp">Загальний опис регістрів та даних ModBus <abbr title="Remote Terminal Unit">RTU</abbr>/<abbr title="Transmission Control Protocol">TCP</abbr></h3>
+<h2 id="registers-modbus">Детальний опис регістрів ModBus <abbr title="Remote Terminal Unit">RTU</abbr>/<abbr title="Transmission Control Protocol">TCP</abbr></h2>
+<p>Числа які починаються з <code>0x</code> мають шістнадцятковий формат, всі інші десятковий формат. </p>
 <p>Для читання даних та керування ІПКЗ використовується набір регістрів і функції читання регістрів 3 (<abbr title="Шістнадцятковий формат числа 3">0x03</abbr>) та 4 (<abbr title="Шістнадцятковий формат числа 4">0x04</abbr>), запису в один регістр 6 (<abbr title="Шістнадцятковий формат числа 6">0x06</abbr>), запис в декілька регістрів 16 (<abbr title="Шістнадцятковий формат числа 16">0x10</abbr>). Інші функції ігноруються.</p>
 <ul>
 <li>Для читання значень з одного або/та декількох регістрів потрібно використовувати функцію <abbr title="Шістнадцятковий формат числа 3">0x03</abbr> (Read Holding Registers) або/та <abbr title="Шістнадцятковий формат числа 4">0x04</abbr> (Read Input Registers).</li>
@@ -701,18 +689,7 @@
 <li>При передачі <code>int16_t</code> числа <code>0x0102</code> першим байтом буде надіслано <code>0x01</code>, другим <code>0х02</code>. </li>
 <li>При передачі <code>int32_t</code> числа <code>0x01020304</code> першим байтом буде надіслано <code>0x01</code>, другим <code>0х02</code>, третім <code>0х03</code>, четвертим <code>0х04</code>.</li>
 </ul>
-<p>Детальний опис регістрів ModBus <abbr title="Remote Terminal Unit">RTU</abbr>/<abbr title="Transmission Control Protocol">TCP</abbr> викладено в Додатку 3.</p>
-<h2 id="детальний-опис-регістрів-modbus-rtutcp">Детальний опис регістрів ModBus <abbr title="Remote Terminal Unit">RTU</abbr>/<abbr title="Transmission Control Protocol">TCP</abbr></h2>
-<p>Числа які починаються з <code>0x</code> мають шістнадцятковий формат, всі інші десятковий формат.  </p>
-<p>Перетворювачі передають числа <code>int16_t</code>, <code>int32_t</code>, <code>uint32_t</code> та рядки <code>string</code>. <br />
-Протокол обміну ModBus <abbr title="Remote Terminal Unit">RTU</abbr>/<abbr title="Transmission Control Protocol">TCP</abbr> не має засобів позначення типу переданих даних. Відповідальність по визначенню типу лягає на програмне забезпечення верхнього рівня.<br />
-ModBus <abbr title="Remote Terminal Unit">RTU</abbr>/<abbr title="Transmission Control Protocol">TCP</abbr> використовує <abbr title="Порядок від старшого до молодшого байта">big-endian</abbr> представлення для адреси та даних. Це означає, що коли передається числова величина, більша за один байт, першим надсилається старший байт.  </p>
-<p>Нижче представлено приклади передачі, числа в прикладах у шістнадцятковому форматі.</p>
-<ul>
-<li>При передачі <code>int16_t</code> числа <code>0x0102</code> першим байтом буде надіслано <code>0x01</code>, другим <code>0х02</code>. </li>
-<li>При передачі <code>int32_t</code> числа <code>0x01020304</code> першим байтом буде надіслано <code>0x01</code>, другим <code>0х02</code>, третім <code>0х03</code>, четвертим <code>0х04</code>.</li>
-</ul>
-<h3 id="читання-основних-параметрів-перетворювача">Читання основних параметрів перетворювача</h3>
+<h3 id="registers-read-ipkz">Читання основних параметрів перетворювача</h3>
 <p>Читання функція 03 (<abbr title="Шістнадцятковий формат числа 3">0x03</abbr>) Read Holding Registers та/або 04 (<abbr title="Шістнадцятковий формат числа 4">0x04</abbr>) Read Input Registers.</p>
 <table>
 <thead>
@@ -954,7 +931,7 @@ ModBus <abbr title="Remote Terminal Unit">RTU</abbr>/<abbr title="Transmission C
 </tr>
 </tbody>
 </table>
-<h3 id="управління-параметрами-перетворювача">Управління параметрами перетворювача</h3>
+<h3 id="registers-control-ipkz">Управління параметрами перетворювача</h3>
 <p>Читання функція 03 (<abbr title="Шістнадцятковий формат числа 3">0x03</abbr>) Read Holding Registers та/або 04 (<abbr title="Шістнадцятковий формат числа 4">0x04</abbr>) Read Input Registers, запис функція 06 (<abbr title="Шістнадцятковий формат числа 6">0x06</abbr>) Write Single Register та/або 16 (<abbr title="Шістнадцятковий формат числа 16">0x10</abbr>) Write Multiple registers.</p>
 <table>
 <thead>
@@ -1097,7 +1074,7 @@ ModBus <abbr title="Remote Terminal Unit">RTU</abbr>/<abbr title="Transmission C
 </tr>
 </tbody>
 </table>
-<h3 id="дані-про-перетворювач">Дані про перетворювач</h3>
+<h3 id="registers-about">Інформація про перетворювач</h3>
 <p>Читання функція 03 (<abbr title="Шістнадцятковий формат числа 3">0x03</abbr>) Read Holding Registers та/або 04 (<abbr title="Шістнадцятковий формат числа 4">0x04</abbr>) Read Input Registers.</p>
 <table>
 <thead>
@@ -1195,7 +1172,7 @@ ModBus <abbr title="Remote Terminal Unit">RTU</abbr>/<abbr title="Transmission C
 </tr>
 </tbody>
 </table>
-<h3 id="управління-параметрами-modbus">Управління параметрами ModBus</h3>
+<h3 id="registers-control-modbus">Управління параметрами ModBus</h3>
 <p>Читання функція 03 (<abbr title="Шістнадцятковий формат числа 3">0x03</abbr>) Read Holding Registers та/або 04 (<abbr title="Шістнадцятковий формат числа 4">0x04</abbr>) Read Input Registers, запис функція 06 (<abbr title="Шістнадцятковий формат числа 6">0x06</abbr>) Write Single Register та/або 16 (<abbr title="Шістнадцятковий формат числа 16">0x10</abbr>) Write Multiple registers.</p>
 <table>
 <thead>

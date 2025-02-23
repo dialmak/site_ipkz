@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://data.texnotek.com/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/contacts/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/contacts/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/datasheet/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/datasheet/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/passport/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/passport/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/interface/limits-video/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/interface/limits-video/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/interface/manual-interface/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/interface/manual-interface/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/interface/modbus-video/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/interface/meter-video/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/interface/mode-video/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/interface/modbus-video/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/interface/pid-video/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/interface/mode-video/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/interface/theme-video/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/interface/pid-video/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/interface/web-interface/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/interface/theme-video/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://data.texnotek.com/modbus/modbus/</loc>
-         <lastmod>2025-02-22</lastmod>
+         <loc>https://p.texnotek.com/interface/web-interface/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://p.texnotek.com/modbus/modbus/</loc>
+         <lastmod>2025-02-23</lastmod>
     </url>
 </urlset>

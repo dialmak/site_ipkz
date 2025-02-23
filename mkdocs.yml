@@ -38,6 +38,7 @@ theme:
 
 extra_css:
   - ./assets/stylesheets/extra.css
+  - ./assets/stylesheets/neoteroi-mkdocs.css
 
 plugins:
     - awesome-pages:
@@ -60,11 +61,11 @@ plugins:
         draggable: true
         skip_classes:
           - custom-skip-class-name
-        auto_caption: true
+        auto_caption: false
         caption_position: bottom
         background: none
         shadow: true
-        manual: false     
+        manual: false          
 
 watch:
   - includes
@@ -103,7 +104,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  
+  - neoteroi.spantable
+
 extra:
   generator: false
   social:
