@@ -10,4 +10,6 @@ icon: material/home-lightning-bolt
 ![Скануй мене!](./assets/images/about/qr-code.png){ width="200" }
 
 Документація доступна на веб-сайті [p.texnotek.com](https://p.texnotek.com)  
-Для комфортного перегляду виберіть світлу або темну тему натиснувши на іконку лампочки :material-lightbulb: в шапці сайту.  
+
+!!! note "Для зручності"
+    Для комфортного перегляду виберіть світлу або темну тему натиснувши на іконку лампочки :material-lightbulb: в шапці сайту.  
