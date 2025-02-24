@@ -55,9 +55,9 @@ icon: material/gesture-tap-box
 
 ## Вибір режиму роботи перетворювача { #manual-interface-mode data-toc-label='Вибір режиму роботи' }
 
-## Перехід до налаштувань { #manual-interface-mode data-toc-label='Налаштування' }
+## Перехід до налаштувань перетворювача { #manual-interface-mode data-toc-label='Налаштування' }
 
-## Помилки та попередження { #manual-interface-error data-toc-label='Помилки та попередження' }
+## Помилки та попередження перетворювача { #manual-interface-error data-toc-label='Помилки та попередження' }
 
 
 
