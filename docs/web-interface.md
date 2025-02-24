@@ -158,7 +158,7 @@ icon: material/web
 
     Для збільшення натисніть на зображенні.
 
-    ![Cторінка налаштуваннь.](./assets/images/settings/settings2.png){ width="200" }  
+    ![Cторінка налаштувань.](./assets/images/settings/settings2.png){ width="200" }  
 
 ### Обмеження вихідного струму та напруги при аварії { #settings-limits data-toc-label='Обмеження струму та напруги' }
 
