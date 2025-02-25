@@ -90,8 +90,8 @@ icon: material/gesture-tap-box
 !!! note "Команди."
     - Поворот праворуч :material-rotate-right: та ліворуч :material-rotate-left: не працюють.
     - Коротке натискання :material-clock-time-one-outline: - негайний, без таймаута, перехід до іншої інформаційної сторінки.
-    - Довге натискання :material-clock-time-three-outline: та ліва сенсорна зона - перехід до вибіру режиму роботи.
-    - Дуже довге натискання :material-clock-time-ten-outline: та права сенсорна зона - перехід до меню налаштувань.
+    - Довге натискання :material-clock-time-three-outline: та ліва сенсорна зона - перехід до [вибіру режиму роботи]( #manual-interface-mode).
+    - Дуже довге натискання :material-clock-time-ten-outline: та права сенсорна зона - перехід до [меню налаштувань](#manual-interface-mode).
 
 ## Вибір режиму роботи перетворювача { #manual-interface-mode data-toc-label='Вибір режиму роботи' }
 
@@ -99,17 +99,22 @@ icon: material/gesture-tap-box
 
 !!! note "Команди."
     - Поворот праворуч :material-rotate-right: та ліворуч :material-rotate-left: перехід по пунктам меню.
-    - Коротке натискання :material-clock-time-one-outline: - перехід до вибраного режиму роботи або повернутися до головної сторінки.
+    - Коротке натискання :material-clock-time-one-outline: - перехід до вибраного режиму роботи.
     - Довге натискання :material-clock-time-three-outline: та ліва сенсорна зона - повернутися до головної сторінки.
     - Дуже довге натискання :material-clock-time-ten-outline: та права сенсорна зона - повернутися до головної сторінки.
 
+<div class="annotate" markdown>
+- [x] Перейдіть в потрібний пункт меню (1) поворотом ручки праворуч :material-rotate-right: або ліворуч :material-rotate-left:.
+- [x] Виберіть його коротким натисканням ручки :material-clock-time-one-outline:.
+- [x] Якщо команда виконалася без помилок, то з'явиться (2) підтверження про успіх. 
+- [x] Автоматично відкриється (3) головна сторінка.    
+</div>
+1. ![Вибір режиму роботи.](./assets/images/nex/mode-select.png) 
+2. ![Зміна режиму роботи.](./assets/images/nex/mode-change.png)
+3. ![Стабілізація напруги.](./assets/images/nex/info-voltage.png)
 
-
-![Вибір режиму роботи.](./assets/images/nex/mode-select.png)
-
-![Зміна режиму роботи.](./assets/images/nex/mode-change.png)
-
-![Стабілізація напруги.](./assets/images/nex/info-voltage.png)
+!!! info "Автоматичний перехід при бездіяльності"
+    Якщо оператор не здійснює жодних команд, то виконується автоматичний перехід до головної сторінки через 20 секунд бездіяльності.
 
 ## Меню налаштувань перетворювача { #manual-interface-mode data-toc-label='Налаштування' }
 
