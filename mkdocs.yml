@@ -1,7 +1,7 @@
 site_name: 'Імпульсний перетворювач катодного захисту ІПКЗ'
 site_url: https://p.texnotek.com
 site_author: 'Ostapchuk Viktor'
-copyright: Ostapchuk Viktor &copy; 2025 
+copyright: 'Ostapchuk Viktor : 2025' 
 dev_addr: '127.0.0.1:8000'
 theme:
 #  font:
