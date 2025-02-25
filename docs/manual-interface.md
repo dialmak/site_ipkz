@@ -92,7 +92,7 @@ icon: material/gesture-tap-box
 
 !!! note "Команди."
     - Поворот праворуч :material-rotate-right: та ліворуч :material-rotate-left: не працюють.
-    - Коротке натискання :material-clock-time-one-outline: негайний, без таймаута, перехід  до іншої інформаційної сторінки.
+    - Коротке натискання :material-clock-time-one-outline: - негайний, без таймаута, перехід  до іншої інформаційної сторінки.
     - Довге натискання :material-clock-time-three-outline: та ліва сенсорна зона - перехід до вибіру режиму роботи.
     - Дуже довге натискання :material-clock-time-ten-outline: та права сенсорна зона - перехід до меню налаштувань.
 
