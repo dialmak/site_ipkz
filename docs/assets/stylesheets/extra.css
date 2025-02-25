@@ -10,3 +10,7 @@
   font-weight: bold;
   color: rgb(78, 140, 255);
 } 
+
+.wifi {
+  transform: rotate(45deg);
+}
