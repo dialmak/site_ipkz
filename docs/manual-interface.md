@@ -84,6 +84,8 @@ icon: material/gesture-tap-box
 
 ## Меню налаштувань перетворювача { #manual-interface-mode data-toc-label='Налаштування' }
 
+![Стабілізація напруги.](./assets/images/nex/settings.png)
+
 ## Помилки та попередження перетворювача { #manual-interface-error data-toc-label='Помилки та попередження' }
 
 
