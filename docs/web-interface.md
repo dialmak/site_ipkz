@@ -49,7 +49,7 @@ icon: material/web
 
 Перетворювач контролює якість Wi-Fi зв'язку між ним та підключеним пристроєм. Після назви сторінки є піктограма <img src = "../assets/svg/wifi1.svg"/>, яка показує реальну якість зв'язку.
 
-![Якість звязку](./assets/images/theme/wifi.png)
+![Якість звязку](./assets/images/theme/wifi2.png)
 
 - Відмінна якість зв'язку <img src = "../assets/svg/wifi1.svg"/> 
 - Середня якість зв'язку <img src = "../assets/svg/wifi2.svg"/> 
